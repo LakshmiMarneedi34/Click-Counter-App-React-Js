@@ -1,0 +1,55 @@
+/* Write your CSS here */
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  margin: 20px;
+  padding: 20px;
+}
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #2d3a35;
+}
+@media screen and (min-width: 768px) {
+  .main-heading {
+    font-size: 50px;
+  }
+}
+.span-count {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #c20a72;
+}
+@media screen and (min-width: 768px) {
+  .span-count {
+    font-size: 50px;
+  }
+}
+.paragraph {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 300;
+  color: #2d3a35;
+}
+@media screen and (min-width: 768) {
+  .paragraph {
+    font-size: 25px;
+  }
+}
+.click-button {
+  height: 30px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+  outline: none;
+  border-width: 0px;
+}
